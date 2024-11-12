@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding:0%;
+}
+
+
+
+:root{
+
+    --font-family:'Permanent Marker', cursive;
+    --colorletra: #000000;
+    --colorverde: #334b35;
+    --tarjetas: #eca826;
+    --color-crema: #d6cbc2; 
+    
+
+}
+
+body{
+    background-color: #d6cbc2;
+    display: block;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    
+    
+}
+ 
+.intro h1{
+    font-family: var(--font-family);
+    color: var(--colorletra);
+    font-size: 500%;
+    margin-left: 30%;
+    margin-bottom: 5px;
+     
+    
+}
+
+.intro h2{
+    font-family: var(--font-family);
+    color: var(--colorletra);
+    font-size:300% ;
+    margin-left: 30%;
+    margin-bottom: 5px;
+}
+
+.intro p{
+    font-family: var(--font-family);
+    color: var(--colorletra);
+    font-size: 150%;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+
+.diego{
+    color: var(--colorletra);
+    font-family: var(--font-family);
+    font-size: 300%;
+    margin-left: 30%;
+    transform: translateY(-30%);
+}
+.so-mi{
+    color: var(--colorletra);
+    font-family: var(--font-family);
+    margin-left: 30%;
+    transform: translateY(-30%);
+
+}
+
+.foto-perfil{
+    position: relative;
+    width: 450px;
+    height: 450px auto;
+    transform: translateY(25%)
+    
+    
+}
+.contacto{
+    position: relative;
+    display: block;
+    color:white;
+    transform: translate(30%, -100px);
+    font-size: 1.5rem;
+    width: 40%;
+}
+.vector{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+.vector-bottom{
+    left: 0;
+    bottom: 0;
+    background-image: var(--vector-bottom);
+}
+
+/* teabajos-------------------------------------------- */
+
+
+
+.trabajos{
+    background-color: var(--colorverde);
+    height: 550px;
+    
+}
+.trabajos-lista{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 150px;
+}
+/* .card1, .card2, .card3 {
+    background-color:var(--tarjetas);
+    
+    height: 250px;
+    width: 250px;
+    
+
+} */
+
+
+/* -----------------------SOBRE MI -------------- */
+.sobre-mi{
+    background-color: var(--color-crema);
+    height: 50%;
+    
+
+}
+
+.experiencia{
+    
+    width: 550px;
+    height: 550px;
+    background-color: var(--tarjetas);
+    transform: translate(40px, -250px);
+}

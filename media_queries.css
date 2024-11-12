@@ -1,0 +1,54 @@
+@media (width < 600px){
+    body { 
+        
+
+    }
+    .container{
+        flex-direction: column-reverse;
+       
+
+    }
+    .intro{
+        margin-right: 10%;
+    }
+    
+    .intro h1{
+        font-size: 150%;
+        margin-left: 40%;
+    }
+    .intro h2{
+        font-size: 150%;
+        margin-left: 25%;
+    }
+    .intro p{
+        font-size: 100%;
+        margin-left: 25%;
+    }
+    .foto-contacto{
+        display: grid;
+        place-content: center;
+        
+    }
+
+    .foto-perfil{
+        width: 80%;
+        transform: translateY(10%);
+        transform: translateX(14%);
+        
+        
+        
+    }
+    .contacto{
+        transform: translate(70%, -120px);
+        font-size: 1.2rem;
+    }
+
+
+
+
+    .experiencia{
+        width: 80%;
+    }
+
+    
+}   
