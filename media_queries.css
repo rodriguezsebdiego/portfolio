@@ -13,15 +13,15 @@
     }
     
     .intro h1{
-        font-size: 150%;
+        font-size: 200%;
         margin-left: 40%;
     }
     .intro h2{
-        font-size: 150%;
+        font-size: 200%;
         margin-left: 25%;
     }
     .intro p{
-        font-size: 100%;
+        font-size: 150%;
         margin-left: 25%;
     }
     .foto-contacto{
@@ -38,9 +38,10 @@
         
         
     }
-    .contacto{
-        transform: translate(70%, -120px);
-        font-size: 1.2rem;
+    .contacto h2{
+        transform: translate(80%, -200px);
+        font-size: 2.5rem;
+        
     }
 
 
@@ -52,6 +53,13 @@
 
     .trabajos{
         margin-top: 50px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+    .trabajos h2{
+        font-size: 2.5rem;
+        margin-top:20px ;
     }
 
     
