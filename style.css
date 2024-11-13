@@ -37,6 +37,7 @@ body{
     font-size: 500%;
     margin-left: 30%;
     margin-bottom: 5px;
+   
      
     
 }
@@ -141,15 +142,15 @@ body{
 /* -----------------------SOBRE MI -------------- */
 .sobre-mi{
     background-color: var(--color-crema);
-    height: 50%;
+    height: 350px;
     
 
 }
 
 .experiencia{
     
-    width: 550px;
-    height: 550px;
+    width: 37%;
+    height: 450px;
     background-color: var(--tarjetas);
-    transform: translate(40px, -250px);
+    transform: translate(40px, -300px);
 }
