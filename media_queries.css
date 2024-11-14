@@ -27,20 +27,27 @@
     }
     .foto-contacto{
         display: grid;
-        place-content: center;
+        align-items: center;
+        justify-items: center;
+        transform: translateY(-100px);
         
     }
 
     .foto-perfil{
         width: 80%;
-        transform: translateY(10%);
-        transform: translateX(18%);
+        /* transform: translateY(10%);
+        transform: translateX(18%); */
         
         
         
     }
+    .contacto{
+        display: flex;
+        justify-content: center;
+        transform: translate(-110px);
+    }
     .contacto h2{ 
-        transform: translate(80%, -200px);
+        /* transform: translate(80%, -200px); */
         font-size: 2.5rem;
         
     }
